@@ -1,4 +1,4 @@
-package com.cochise;
+package org.cochise.Point02_Foreach;
 
 
 /**

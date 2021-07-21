@@ -1,4 +1,4 @@
-package com.cochise;
+package org.cochise.Point03_AbstractClass;
 
 /**
  * 1，抽象类不能创建对象。只能创建其非抽象子类的对象。

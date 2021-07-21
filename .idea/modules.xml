@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LearnJava.iml" filepath="$PROJECT_DIR$/LearnJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javase_datatype/javase_datatype.iml" filepath="$PROJECT_DIR$/javase_datatype/javase_datatype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javase_helloworld/javase_helloworld.iml" filepath="$PROJECT_DIR$/javase_helloworld/javase_helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase_datatype/javase.iml" filepath="$PROJECT_DIR$/javase_datatype/javase.iml" />
     </modules>
   </component>
 </project>
