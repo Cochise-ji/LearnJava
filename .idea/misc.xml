@@ -9,6 +9,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/aaaa/pom.xml" />
+        <option value="$PROJECT_DIR$/bbbbb/pom.xml" />
+        <option value="$PROJECT_DIR$/cccc/pom.xml" />
         <option value="$PROJECT_DIR$/javase_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>
