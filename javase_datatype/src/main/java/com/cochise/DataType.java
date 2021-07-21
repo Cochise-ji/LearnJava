@@ -1,6 +1,8 @@
 package com.cochise;
 
 
+
+
 /**
  * 自动类型转换（隐式）：从小到大
  * 强制类型转换（显示）：从大到小
@@ -32,5 +34,7 @@ public class DataType {
 
         // bool
         System.out.println("基本类型：bool 二进制位数：1");
+
+
     }
 }
