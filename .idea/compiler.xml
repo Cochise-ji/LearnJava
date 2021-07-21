@@ -6,7 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javase_helloworld" />
+        <module name="javase_datatype" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javase_datatype" target="1.7" />
+      <module name="javase_helloworld" target="8" />
+      <module name="LearnJava" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
