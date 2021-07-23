@@ -1,5 +1,6 @@
 package org.cochise.Points07_Thread;
 
+import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
 
@@ -7,7 +8,17 @@ import java.util.List;
  * 匿名内部类实现多线程
  */
 public class Main {
+
+
     public static void main(String[] args) {
+        RunnableImpl runnable = new RunnableImpl();
+
+        System.out.println(RunnableImpl.class.hashCode());
+
+        for (Method item : RunnableImpl.class.getDeclaredMethods()) {
+            System.out.println(item.getName());
+        }
+
         new Thread(){
             @Override
             public void run() {

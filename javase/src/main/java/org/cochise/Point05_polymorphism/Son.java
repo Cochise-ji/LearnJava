@@ -1,6 +1,11 @@
 package org.cochise.Point05_polymorphism;
 
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+
 /**
  * 对象向上转型（多态）
  * 格式： 父类名称 对象名 = new 子类名称（）
@@ -18,7 +23,7 @@ public class Son extends Parent{
     }
 
     public void paly(){
-
+        System.out.println(super.getClass().getName());
     }
     public static void main(String[] args) {
         Parent parent = new Son();
@@ -34,5 +39,10 @@ public class Son extends Parent{
         // 向下转型的对象必须是向上转型过来的，且只能转型成向上转型前的类型
         Son son = (Son)parent;
         son.paly();
+
+
+
     }
+
+
 }
