@@ -15,6 +15,7 @@
       <module name="cccc" target="8" />
       <module name="javase" target="8" />
       <module name="javase_helloworld" target="8" />
+      <module name="javaweb" target="1.7" />
       <module name="LearnJava" target="8" />
       <module name="test" target="1.7" />
     </bytecodeTargetLevel>

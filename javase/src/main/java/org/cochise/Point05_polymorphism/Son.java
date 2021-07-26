@@ -40,8 +40,6 @@ public class Son extends Parent{
         Son son = (Son)parent;
         son.paly();
 
-
-
     }
 
 
