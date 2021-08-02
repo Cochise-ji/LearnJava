@@ -48,6 +48,17 @@
             // 发送异步请求
             xmlHttpRequest.send();
         });
+
+        $("#ajaxRequest2").click(function(){
+            $.ajax({
+                url:"http://localhost:8080/javaweb/servlet1",
+                data:"action=jQueryAjaxRequest",
+                type:"GET",
+                success:function (data){
+                    alert(data);
+                }
+            })
+        });
     });
 
 </script>

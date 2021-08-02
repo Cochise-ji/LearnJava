@@ -24,7 +24,11 @@ public class Servlet1 extends HttpServlet {
         }
         if("jsAjaxRequest".equals(req.getParameter("action"))){
             resp.setCharacterEncoding("UTF-8");
-            resp.getWriter().write("已接收到Ajax请求");
+            resp.getWriter().write("已接收到JS Ajax请求");
+        }
+        if("jQueryAjaxRequest".equals(req.getParameter("action"))){
+            resp.setCharacterEncoding("UTF-8");
+            resp.getWriter().write("已接收到Jquery Ajax请求");
         }
 
 
