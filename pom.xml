@@ -11,11 +11,20 @@
     <modules>
         <module>javase</module>
         <module>javaweb</module>
+        <module>SSM</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+<dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.20</version>
+        <scope>provided</scope>
+    </dependency>
+    </dependencies>
 
 </project>
