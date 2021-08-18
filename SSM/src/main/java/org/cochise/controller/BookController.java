@@ -15,16 +15,19 @@ import java.util.List;
 @RequestMapping("/book")
 public class BookController {
 
-    @Autowired
-    @Qualifier("bookServiceImpl")
+
     private BookService bookService;
+
+    @Autowired
+    public BookController(@Qualifier("bookServiceImpl") BookService bookService) {
+        this.bookService = bookService;
+    }
 
     @RequestMapping("/allBook")
     public String getAllBooks(Model model){
         List<Books> books = bookService.getBooks();
         model.addAttribute("list", books);
         return "allBook";
-
 
     }
 }

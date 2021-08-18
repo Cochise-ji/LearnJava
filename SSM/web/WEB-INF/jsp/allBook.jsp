@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>书籍展示</title>
+    <title>AA书籍展示AA</title>
 </head>
 <body>
 <c:forEach var="book" items="${list}">
